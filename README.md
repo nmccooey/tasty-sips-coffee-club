@@ -1,0 +1,1 @@
+A fictional e-commerce subscription website that sells coffee grounds and whole beans.
