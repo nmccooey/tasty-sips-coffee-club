@@ -1,13 +1,48 @@
 body {
     position: relative;
     min-height: 100vh;
-    padding-bottom: 2.5rem
+    padding-bottom: 2.5rem;
+    background-color: #e7e7e7;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.submit-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-us-info {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.contact-us-info h1 {
+    margin-bottom: 20px;
+}
+
+.contact-us-info img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 footer {
