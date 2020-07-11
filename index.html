@@ -8,29 +8,91 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
         <link rel="manifest" href="/favicon_io/site.webmanifest">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="stylesheets/home.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap">
     </head>
     <body>
         <header>
-            <a href="#"><img class="logo-image" src="/images/logo.png" alt="company logo"></a>
-            <nav>
-              <a class="link" href="#">Home</a>
-              <a class="link" href="#">Products</a>
-              <a class="link" href="#">About</a>
-              <a class="link" href="#">Contact</a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Tasty Sips Coffee Club</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
             </nav>
         </header>
         <main>
-            <div class="left-content">
-                <h1>Tasty Sips Coffee Club</h1>
-                <h3>Fresh Beans Delivered Every Week!</h3>
-                <p>To go robusta sweet mazagran ristretto iced single origin. Iced mazagran eu frappuccino coffee froth irish single origin organic. Brewed con panna crema that mug, cinnamon, cultivar blue mountain decaffeinated macchiato that. Foam variety, breve, half and half viennese a dripper dark. Iced latte doppio decaffeinated cinnamon grinder est redeye caffeine grinder dark.</p>
-                <p>French press, flavour breve arabica et ut con panna pumpkin spice whipped frappuccino arabica iced. Milk beans grounds to go, milk black decaffeinated cream foam. Chicory americano lungo robust saucer black aromatic cappuccino at chicory redeye trifecta. Single origin white breve as plunger pot coffee milk siphon. Ut trifecta, filter, mazagran frappuccino sugar lungo cultivar.</p>
-                <p>Aromatic wings grounds shop kopi-luwak fair trade to go. Saucer plunger pot in medium iced acerbic cup aroma acerbic. Grounds, variety coffee, cultivar at, qui percolator so chicory caramelization brewed. Cortado caramelization redeye, rich, blue mountain seasonal, qui galão carajillo seasonal plunger pot grounds. Black plunger pot single origin, aroma pumpkin spice seasonal aromatic cultivar.</p>
-            </div>
-            <div class="right-content">
-            </div>
+            <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                <h1 class="display-4">Freshly Roasted Coffee Beans Delivered!</h1>
+                <p class="lead">Cream as, whipped medium coffee dripper seasonal. Fair trade espresso, french press, bar plunger pot, java extraction, whipped shop latte extra froth. Black cappuccino id caramelization espresso viennese extra beans aftertaste coffee saucer.</p>
+              </div>
+              <div class="container">
+                <div class="card-deck mb-3 text-center">
+                  <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                      <h4 class="my-0 font-weight-normal">1 Bag</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/ mo</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Always Freshly Roasted</li>
+                        <li>Whole Bean or Ground</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                      </ul>
+                      <button type="button" class="btn btn-lg btn-block btn-primary">Get Started</button>
+                    </div>
+                  </div>
+                  <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                      <h4 class="my-0 font-weight-normal">2 Bags</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">$18 <small class="text-muted">/ mo</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Always Freshly Roasted</li>
+                        <li>Whole Bean or Ground</li>
+                        <li>Free Bean Scooper</li>
+                        <li>&nbsp;</li>
+                      </ul>
+                      <button type="button" class="btn btn-lg btn-block btn-primary">Get Started</button>
+                    </div>
+                  </div>
+                  <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                      <h4 class="my-0 font-weight-normal">3 Bags</h4>
+                    </div>
+                    <div class="card-body">
+                      <h1 class="card-title pricing-card-title">$25 <small class="text-muted">/ mo</small></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li>Always Freshly Roasted</li>
+                        <li>Whole Bean or Ground</li>
+                        <li>Free Bean Scooper</li>
+                        <li>Free Tasty Sips T-Shirt</li>
+                      </ul>
+                      <button type="button" class="btn btn-lg btn-block btn-primary">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
