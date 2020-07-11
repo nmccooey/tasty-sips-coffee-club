@@ -4,6 +4,12 @@ body {
     padding-bottom: 2.5rem
 }
 
+.contact-us-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 footer {
     background-color: #343a40;
     position: absolute;
